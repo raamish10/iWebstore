@@ -1,7 +1,7 @@
 <h1 align="center">iWebstore</h1>
 <h3 align="center"><i>An online eCommerce computer store developed using ASP.NET Razor Pages in C#</i></h3>
 <p align="center">
-    <img src="https://github.com/raamish10/iWebstore/blob/main/TMA3A/Pages/Shared/documentation/pictures/image1.png" alt="loading_screen" height="500px" >
+    <img src="https://github.com/raamish10/iWebstore/blob/main/TMA3A/Pages/Shared/documentation/pictures/Image1.png" alt="loading_screen" height="500px" >
 </p>
 <h3>Features</h3>
 <h4>Catalog</h4>
