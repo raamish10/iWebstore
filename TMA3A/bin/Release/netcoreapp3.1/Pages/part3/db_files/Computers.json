@@ -1,0 +1,46 @@
+﻿[
+  {
+    "link": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/158/15889/15889981.jpg",
+    "name": "Standard PC",
+    "price": "$2966.99",
+    "CPU": "Intel Core i9-12900K Octa-Core 3.2GHz Processor",
+    "Display": "Dell 23.6 FHD 165Hz 4ms GTG Curved VA LED FreeSync Gaming Monitor",
+    "Fan": "Corsair iCUE H100i Elite Capellix 240mm Liquid CPU Cooling System",
+    "GPU": "ASUS ROG Strix NVIDIA GeForce RTX 3070 Ti OC 8GB GDDR6X Video Card",
+    "Hard_Drive": "Seagate BarraCuda 2TB 3.5 7200RPM SATA 3.0 Internal Hard Drive",
+    "Motherboard": "ASUS ROG Strix B450-F Gaming II ATX AM4",
+    "OS": "Windows 10 Home 64-bit",
+    "RAM": "Corsair Vengeance LPX 16GB (2 x 8GB) DDR4 3200MHz Desktop Memory",
+    "Soundcard": "Sound Blaster Audigy RX"
+  },
+  {
+    "link": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/159/15923/15923325.jpeg",
+    "name": "Prebuilt PC #2",
+    "price": "$2882.99",
+    "CPU": "Intel Core i7-12700K Octa-Core 3.6GHz Processor",
+    "Display": "Samsung 32 FHD 75Hz 4ms GTG Curved VA LED FreeSync Gaming Monitor",
+    "Fan": "Corsair iCue H100i Elite Capellix 120mm Liquid CPU Cooling System",
+    "GPU": "ASUS TUF Gaming GeForce RTX 3060 OC 12GB GDDR6X Video Card",
+    "Hard_Drive": "Seagate BarraCuda 8TB 3.5 5400RPM SATA Desktop Internal Hard Drive",
+    "Motherboard": "ASUS ROG Strix Z690-F Gaming Wi-Fi ATX LGA",
+    "OS": "Microsoft Windows 10 S 64-bit",
+    "RAM": "Corsair Vengeance RGB Pro 32GB (2 x 16GB) DDR4 3600MHz Desktop Memory",
+    "Soundcard": "Asus Xonar AE Sound Board"
+  },
+  {
+    "link": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/157/15741/15741155.jpg",
+    "name": "Prebuilt PC #3",
+    "price": "$3082.62",
+    "CPU": "Intel Core i7-12700KF Octa-Core 3.6GHz Processor",
+    "Display": "Samsung 27 FHD 75Hz 5ms GTG IPS LED FreeSync Gaming Monitor",
+    "Fan": "Corsair iCUE H150i Elite Capellix 360mm Liquid CPU Cooling System",
+    "GPU": "ASUS ROG Strix NVIDIA GeForce RTX 3080 10GB GDDR6X Video Card",
+    "Hard_Drive": "Seagate IronWolf 8TB 3.5 7200RPM SATA Desktop Internal Hard Drive",
+    "Motherboard": "ASUS ROG Strix B550-F Gaming ATX AM4",
+    "OS": "Microsoft Windows 10 Pro 64-bit",
+    "RAM": "Corsair Vengeance RGB Pro 16GB (2 x 8GB) DDR4 3200MHz Desktop Memory",
+    "Soundcard": "Audigy FX PCI-Express"
+  }
+]
+
+  

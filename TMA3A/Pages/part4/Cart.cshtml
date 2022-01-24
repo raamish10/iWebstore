@@ -1,0 +1,104 @@
+﻿@page
+@model TMA3A.Pages.part4.CartModel
+@{
+    ViewData["Title"] = "Cart";
+}
+
+<div class="text-center">
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container">
+            <img src="/images/part3/icon.png" class="webstoreIcon" alt="icon" />
+            <a class="navbar-brand" asp-area="" asp-page="/part4/part4">iWebstore</a>
+            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part4/part4">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part4/Store">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part4/Delivery">Delivery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part4/ContactUs">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part4/Policies">Policies</a>
+                    </li>
+                </ul>
+            </div>
+            <a asp-page="/part4/Cart" asp-page-handler="load">
+                <img src="/images/part3/cart.jpg" class="webstoreIcon">
+            </a>
+            <a asp-page="/part4/Login" asp-page-handler="load">
+                <img src="/images/part4/user.png" style="width: 30px; height: 30px;">
+            </a>
+        </div>
+    </nav>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <br />
+            <h3>Your Cart</h3>
+            <br />
+            <div class="row">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Image</th>
+                            <th>Name</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    @{double total = 0;}
+                    <tbody>
+                        @if (Model.cart != null)
+                        {
+                            @foreach (var item in Model.cart)
+                            {
+                                total += double.Parse(item.Component.Price.Remove(0, 1).ToString()) * item.Quantity;
+                                <tr>
+                                    <td>
+                                        <img src="@item.Component.Image" height="100px" />
+                                    </td>
+                                    <td>@item.Component.Name</td>
+                                    <td>@item.Quantity</td>
+                                    <td>@item.Component.Price</td>
+                                    <td>
+                                        <a asp-page="Cart" asp-page-handler="Remove" asp-route-id="@item.Component.Id" class="btn btn-danger">
+                                            X
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                </div>
+                <div class="col-6 text-right">
+                    <h3>Total Amount</h3>
+                    <h3>
+                        @Html.Raw(@String.Format(new System.Globalization.CultureInfo("en-US"), "{0:C}", @total))
+                    </h3>
+                    <a asp-page="/part4/Checkout" class="btn btn-info">Process to Checkout</a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="border-top webstoreFooter">
+        <br />
+        &copy; 2021 - iWebstore. All rights reserved.
+        <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <a asp-area="" asp-page="/part4/ContactUs" class="text-muted">Contact Us</a>
+        |
+        <a asp-area="" asp-page="/part4/Delivery" class="text-muted">Delivery</a>
+        |
+        <a asp-area="" asp-page="/part4/Policies" class="text-muted">Policies</a>
+    </div>
+</div>

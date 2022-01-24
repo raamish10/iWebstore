@@ -1,0 +1,94 @@
+﻿@page
+@model Part4Model
+@{
+    ViewData["Title"] = "Store";
+}
+
+<div class="text-center">
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container">
+            <img src="/images/part3/icon.png" class="webstoreIcon" alt="icon" />
+            <a class="navbar-brand" asp-area="" asp-page="/part4/part4">iWebstore</a>
+            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part4/part4">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part4/Store">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part4/Delivery">Delivery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part4/ContactUs">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part4/Policies">Policies</a>
+                    </li>
+                </ul>
+            </div>
+            <a asp-page="/part4/Cart" asp-page-handler="load">
+                <img src="/images/part3/cart.jpg" class="webstoreIcon">
+            </a>
+            <a asp-page="/part4/Login" asp-page-handler="load">
+                <img src="/images/part4/user.png" style="width: 30px; height: 30px;">
+            </a>
+        </div>
+    </nav>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <a asp-page="/part4/ComputerList"><img src="/images/part3/img1.png" style="width:90%; border-style: solid; border-width: 2px; border-color: black; border-radius: 15px 50px;" alt="icon" /></a>
+            <br />
+            <img src="/images/part3/img2.png" style="width:50%;" alt="icon" />
+            <br />
+            <div class="row">
+                <div class="column">
+                    <a class="nav-link text-dark" asp-route-type="Motherboard" asp-page="/part4/ComponentList"><img src="/images/part3/Motherboards.png" alt="Motherboards" style="width: 100%; border-style: solid; border-width: 1px; border-color: black; border-radius: 15px ; "></a>
+                </div>
+                <div class="column">
+                    <a class="nav-link text-dark" asp-route-type="Display" asp-page="/part4/ComponentList"><img src="/images/part3/Displays.png" alt="Displays" style="width: 100%; border-style: solid; border-width: 1px; border-color: black; border-radius: 15px ;"></a>
+                </div>
+                <div class="column">
+                    <a class="nav-link text-dark" asp-route-type="Soundcard" asp-page="/part4/ComponentList"><img src="/images/part3/Soundcards.png" alt="Soundcards" style="width: 100%; border-style: solid; border-width: 1px; border-color: black; border-radius: 15px ;"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <a class="nav-link text-dark" asp-route-type="Fan" asp-page="/part4/ComponentList"><img src="/images/part3/Fans.png" alt="Fans" style="width: 100%; border-style: solid; border-width: 1px; border-color: black; border-radius: 15px ;"></a>
+                </div>
+                <div class="column">
+                    <a class="nav-link text-dark" asp-route-type="RAM" asp-page="/part4/ComponentList"><img src="/images/part3/RAMs.png" alt="RAMs" style="width:100%; border-style: solid; border-width: 1px; border-color: black; border-radius: 15px ;"></a>
+                </div>
+                <div class="column">
+                    <a class="nav-link text-dark" asp-route-type="CPU" asp-page="/part4/ComponentList"><img src="/images/part3/CPUs.png" alt="CPUs" style="width: 100%; border-style: solid; border-width: 1px; border-color: black; border-radius: 15px ;"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <a class="nav-link text-dark" asp-route-type="Hard_Drive" asp-page="/part4/ComponentList"><img src="/images/part3/Harddrives.png" alt="Harddrives" style="width: 100%; border-style: solid; border-width: 1px; border-color: black; border-radius: 15px ;"></a>
+                </div>
+                <div class="column">
+                    <a class="nav-link text-dark" asp-route-type="GPU" asp-page="/part4/ComponentList"><img src="/images/part3/GPUs.png" alt="GPUs" style="width: 100%; border-style: solid; border-width: 1px; border-color: black; border-radius: 15px ;"></a>
+                </div>
+                <div class="column">
+                    <a class="nav-link text-dark" asp-route-type="OS" asp-page="/part4/ComponentList"><img src="/images/part3/OS.png" alt="OS" style="width: 100%; border-style: solid; border-width: 1px; border-color: black; border-radius: 15px ;"></a>
+                </div>
+            </div>
+
+
+
+        </main>
+    </div>
+
+    <div class="border-top webstoreFooter">
+        <br />
+        &copy; 2021 - iWebstore. All rights reserved.
+        <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <a asp-area="" asp-page="/part4/ContactUs" class="text-muted">Contact Us</a>
+        |
+        <a asp-area="" asp-page="/part4/Delivery" class="text-muted">Delivery</a>
+        |
+        <a asp-area="" asp-page="/part4/Policies" class="text-muted">Policies</a>
+    </div>
+</div>

@@ -1,0 +1,140 @@
+﻿@page
+@model TMA3A.Pages.part3.CheckoutModel
+@{
+    ViewData["Title"] = "Checkout";
+}
+
+<div class="text-center">
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container">
+            <img src="/images/part3/icon.png" class="webstoreIcon" alt="icon" />
+            <a class="navbar-brand" asp-area="" asp-page="/part3/part3">iWebstore</a>
+            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part3/part3">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part3/Store">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part3/Delivery">Delivery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part3/ContactUs">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part3/Policies">Policies</a>
+                    </li>
+                </ul>
+            </div>
+            <a asp-page="/part3/Cart" asp-page-handler="load">
+                <img src="/images/part3/cart.jpg" class="webstoreIcon">
+            </a>
+        </div>
+    </nav>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <br />
+            <h3>Checkout</h3>
+            <br />
+            <form  method="post" enctype="multipart/form-data">
+                <div class="p-4 rounded border row">
+                    <div class="col-6">
+                        <br />
+                        <h5>Order Summary</h5>
+                        <br />
+                        <br />
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Image</th>
+                                    <th>Name</th>
+                                    <th>Quantity</th>
+                                    <th>Price</th>
+                                </tr>
+                            </thead>
+                            @{double total = 0;}
+                            <tbody>
+                                @foreach (var item in Model.cart)
+                                {
+                                    total += double.Parse(item.Component.Price.Remove(0, 1).ToString()) * item.Quantity;
+                                    <tr>
+                                        <td>
+                                            <img src="@item.Component.Image" height="100px" />
+                                        </td>
+                                        <td>@item.Component.Name</td>
+                                        <td>@item.Quantity</td>
+                                        <td>@item.Component.Price</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="col-6">
+                        <br />
+                        <h5>Personal Details</h5>
+                        <br />
+                        <br />
+                        <div class="form-group row">
+                            <div class="col-4">
+                                <label for="Name">Name</label>
+                            </div>
+                            <div class="col-8">
+                                <input type="text" name="Name" class="form-control"  value="" />
+                                <span class="text-danger"></span>
+                            </div>
+
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-4">
+                                <label for="Name">Address</label>
+                            </div>
+                            <div class="col-8">
+                                <input type="text" name="Address" class="form-control"  value="" />
+                                <span class="text-danger"></span>
+
+                            </div>
+
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-4">
+                                <label for="Email">Email</label>
+                            </div>
+                            <div class="col-8">
+                                <input type="text" name="Email" class="form-control" value="" />
+                                <span class="text-danger"></span>
+
+                            </div>
+                        </div>
+                        <br />
+                        <br />
+                        <div class="text-right">
+                            <h3>Total Price: @Html.Raw(@String.Format(new System.Globalization.CultureInfo("en-US"), "{0:C}", @total))</h3>
+                        </div>
+                        <div class="form-group text-right">
+                            <input type="submit" value="Place Order" class="btn btn-success" />
+                        </div>
+                        <br />
+                        <br />
+                        <h5>@ViewData["Message"]</h5>
+
+                    </div>
+                </div>
+            </form>
+        </main>
+    </div>
+
+    <div class="border-top webstoreFooter">
+        <br />
+        &copy; 2021 - iWebstore. All rights reserved.
+        <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <a asp-area="" asp-page="/part3/ContactUs" class="text-muted">Contact Us</a>
+        |
+        <a asp-area="" asp-page="/part3/Delivery" class="text-muted">Delivery</a>
+        |
+        <a asp-area="" asp-page="/part3/Policies" class="text-muted">Policies</a>
+    </div>
+</div>

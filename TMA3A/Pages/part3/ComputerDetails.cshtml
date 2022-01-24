@@ -1,0 +1,275 @@
+﻿@page
+@model TMA3A.Pages.part3.ComputerDetailsModel
+@{
+    ViewData["Title"] = "Computer Details";
+}
+
+
+<div class="text-center">
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container">
+            <img src="/images/part3/icon.png" class="webstoreIcon" alt="icon" />
+            <a class="navbar-brand" asp-area="" asp-page="/part3/part3">iWebstore</a>
+            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part3/part3">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part3/Store">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part3/Delivery">Delivery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part3/ContactUs">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part3/Policies">Policies</a>
+                    </li>
+                </ul>
+            </div>
+            <a asp-page="/part3/Cart" asp-page-handler="load">
+                <img src="/images/part3/cart.jpg" class="webstoreIcon">
+            </a>
+        </div>
+    </nav>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <br />
+            <h3>Computer Details</h3>
+            <br />
+            <form method="post" enctype="multipart/form-data">
+                <div class="p-4 rounded border row">
+                    <div class="col-8">
+                        <div class="form-group row">
+                            <div class="col-2">
+                                <label for="Name">Name</label>
+                            </div>
+                            <div class="col-7">
+                                <input type="hidden" id="Image" name="Image" value="@Model.Computer.Image" />
+                                <input type="text" name="Name" readonly="readonly" class="form-control" value="@Model.Computer.Name" />
+                                <span class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-2">
+                                <label for="CPU">CPU</label>
+                            </div>
+                            <div class="col-7">
+                                <select type="text" id="CPUselect" name="CPU" onChange="updateprice()" class="form-control" asp-for="SelectedTag" asp-items="Model.CPUOptions" value="@Model.Computer.CPU">
+                                </select>
+                                <span class="text-danger"></span>
+                            </div>
+                            <div class="col-3">
+                                <input type="text" id="CPUPrice" readonly="readonly" class="form-control" value="@Model.CPUPrice[int.Parse(@ViewData["query_id"].ToString())]" />
+                                <span class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-2">
+                                <label for="Display">Display</label>
+                            </div>
+                            <div class="col-7">
+                                <select type="text" id="Displayselect" name="Display" onChange="updateprice()" class="form-control" asp-for="SelectedTag" asp-items="Model.DisplayOptions" value="@Model.Computer.Display">
+                                </select>
+                            </div>
+                            <div class="col-3">
+                                <input type="text" id="DisplayPrice" readonly="readonly" class="form-control" value="@Model.DisplayPrice[int.Parse(@ViewData["query_id"].ToString())]" />
+                                <span class="text-danger"></span>
+                            </div>
+
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-2">
+                                <label for="Fan">Fan</label>
+                            </div>
+                            <div class="col-7">
+                                <select type="text" id="Fanselect" name="Fan" onChange="updateprice()" class="form-control" asp-for="SelectedTag" asp-items="Model.FanOptions" value="@Model.Computer.Fan">
+                                </select>
+                                <span class="text-danger"></span>
+                            </div>
+                            <div class="col-3">
+                                <input type="text" id="FanPrice" readonly="readonly" onChange="updateprice()" class="form-control" value="@Model.FanPrice[int.Parse(@ViewData["query_id"].ToString())]" />
+                                <span class="text-danger"></span>
+                            </div>
+
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-2">
+                                <label for="GPU">GPU</label>
+                            </div>
+                            <div class="col-7">
+                                <select type="text" id="GPUselect" name="GPU" onChange="updateprice()" class="form-control" asp-for="SelectedTag" asp-items="Model.GPUOptions" value="@Model.Computer.GPU">
+                                </select>
+                                <span class="text-danger"></span>
+                            </div>
+                            <div class="col-3">
+                                <input type="text" id="GPUPrice" readonly="readonly" class="form-control" value="@Model.GPUPrice[int.Parse(@ViewData["query_id"].ToString())]" />
+                                <span class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-2">
+                                <label for="Hard_Drive">Hard Drive</label>
+                            </div>
+                            <div class="col-7">
+                                <select type="text" id="HardDriveselect" name="Hard_Drive" onChange="updateprice()" class="form-control" asp-for="SelectedTag" asp-items="Model.HardDriveOptions" value="@Model.Computer.Hard_Drive">
+                                </select>
+                                <span class="text-danger"></span>
+                            </div>
+                            <div class="col-3">
+                                <input type="text" id="HardDrivePrice" readonly="readonly" class="form-control" value="@Model.HardDrivePrice[int.Parse(@ViewData["query_id"].ToString())]" />
+                                <span class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-2">
+                                <label for="Motherboard">Motherboard</label>
+                            </div>
+                            <div class="col-7">
+                                <select type="text" id="Motherboardselect" name="Motherboard" onChange="updateprice()" class="form-control" asp-for="SelectedTag" asp-items="Model.MotherboardOptions" value="@Model.Computer.Motherboard">
+                                </select>
+                                <span class="text-danger"></span>
+                            </div>
+                            <div class="col-3">
+                                <input type="text" id="MotherboardPrice" readonly="readonly" class="form-control" value="@Model.MotherboardPrice[int.Parse(@ViewData["query_id"].ToString())]" />
+                                <span class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-2">
+                                <label for="OS">OS</label>
+                            </div>
+                            <div class="col-7">
+                                <select type="text" id="OSselect" name="OS" onChange="updateprice()" class="form-control" asp-for="SelectedTag" asp-items="Model.OSOptions" value="@Model.Computer.OS">
+                                </select>
+                                <span class="text-danger"></span>
+                            </div>
+                            <div class="col-3">
+                                <input type="text" id="OSPrice" readonly="readonly" class="form-control" value="@Model.OSPrice[int.Parse(@ViewData["query_id"].ToString())]" />
+                                <span class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-2">
+                                <label for="RAM">RAM</label>
+                            </div>
+                            <div class="col-7">
+                                <select type="text" id="RAMselect" name="RAM" onChange="updateprice()" class="form-control" asp-for="SelectedTag" asp-items="Model.RAMOptions" value="@Model.Computer.RAM">
+                                </select>
+                                <span class="text-danger"></span>
+                            </div>
+                            <div class="col-3">
+                                <input type="text" id="RAMPrice" readonly="readonly" class="form-control" value="@Model.RAMPrice[int.Parse(@ViewData["query_id"].ToString())]" />
+                                <span class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-2">
+                                <label for="Soundcard">Soundcard</label>
+                            </div>
+                            <div class="col-7">
+                                <select type="text" id="Soundcardselect" name="Soundcard" onChange="updateprice()" class="form-control" asp-for="SelectedTag" asp-items="Model.SoundcardOptions" value="@Model.Computer.Soundcard">
+                                </select>
+                                <span class="text-danger"></span>
+                            </div>
+                            <div class="col-3">
+                                <input type="text" id="SoundcardPrice" readonly="readonly" class="form-control" value="@Model.SoundcardPrice[int.Parse(@ViewData["query_id"].ToString())]" />
+                                <span class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-2">
+                                <label for="Price">Price</label>
+                            </div>
+                            <div class="col-7">
+                                <input type="text" id="TotalPrice" name="Price" readonly="readonly" class="form-control" value="@Model.Computer.Price" />
+                                <span class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-2">
+                                <a asp-page="/part3/ComputerList" class="btn pull-right btn-outline-info">Back</a>
+                            </div>
+                            <div class="col-7">
+                                <input type="submit" class="btn pull-right btn-outline-info form-control" value="Add to Cart" />
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-3">
+                        <img src="@Model.Computer.Image" height="250px" />
+                    </div>
+
+                </div>
+            </form>
+
+        </main>
+    </div>
+
+    <div class="border-top webstoreFooter">
+        <br />
+        &copy; 2021 - iWebstore. All rights reserved.
+        <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <a asp-area="" asp-page="/part3/ContactUs" class="text-muted">Contact Us</a>
+        |
+        <a asp-area="" asp-page="/part3/Delivery" class="text-muted">Delivery</a>
+        |
+        <a asp-area="" asp-page="/part3/Policies" class="text-muted">Policies</a>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function updateprice() {
+
+
+        var CPUarr = @Html.Raw(Json.Serialize(Model.CPUPrice));
+        document.getElementById("CPUPrice").value = CPUarr[parseInt(document.getElementById("CPUselect").selectedIndex)];
+
+        var Displayarr = @Html.Raw(Json.Serialize(Model.DisplayPrice));
+        document.getElementById("DisplayPrice").value = Displayarr[parseInt(document.getElementById("Displayselect").selectedIndex)];
+
+        var Fanarr = @Html.Raw(Json.Serialize(Model.FanPrice));
+        document.getElementById("FanPrice").value = Fanarr[parseInt(document.getElementById("Fanselect").selectedIndex)];
+
+        var GPUarr = @Html.Raw(Json.Serialize(Model.GPUPrice));
+        document.getElementById("GPUPrice").value = GPUarr[parseInt(document.getElementById("GPUselect").selectedIndex)];
+
+        var HardDrivearr = @Html.Raw(Json.Serialize(Model.HardDrivePrice));
+        document.getElementById("HardDrivePrice").value = HardDrivearr[parseInt(document.getElementById("HardDriveselect").selectedIndex)];
+
+        var Motherboardarr = @Html.Raw(Json.Serialize(Model.MotherboardPrice));
+        document.getElementById("MotherboardPrice").value = Motherboardarr[parseInt(document.getElementById("Motherboardselect").selectedIndex)];
+
+        var OSarr = @Html.Raw(Json.Serialize(Model.OSPrice));
+        document.getElementById("OSPrice").value = OSarr[parseInt(document.getElementById("OSselect").selectedIndex)];
+
+        var RAMarr = @Html.Raw(Json.Serialize(Model.RAMPrice));
+        document.getElementById("RAMPrice").value = RAMarr[parseInt(document.getElementById("RAMselect").selectedIndex)];
+
+        var Soundcardarr = @Html.Raw(Json.Serialize(Model.SoundcardPrice));
+        document.getElementById("SoundcardPrice").value = Soundcardarr[parseInt(document.getElementById("Soundcardselect").selectedIndex)];
+
+
+        var CPUPrice = parseFloat(document.getElementById("CPUPrice").value.substring(1).replace(/[^0-9\.]/g, ''));
+        var DisplayPrice = parseFloat(document.getElementById("DisplayPrice").value.substring(1).replace(/[^0-9\.]/g, ''));
+        var FanPrice = parseFloat(document.getElementById("FanPrice").value.substring(1).replace(/[^0-9\.]/g, ''));
+        var GPUPrice = parseFloat(document.getElementById("GPUPrice").value.substring(1).replace(/[^0-9\.]/g, ''));
+        var HardDrivePrice = parseFloat(document.getElementById("HardDrivePrice").value.substring(1).replace(/[^0-9\.]/g, ''));
+        var MotherboardPrice = parseFloat(document.getElementById("MotherboardPrice").value.substring(1).replace(/[^0-9\.]/g, ''));
+        var OSPrice = parseFloat(document.getElementById("OSPrice").value.substring(1).replace(/[^0-9\.]/g, ''));
+        var RAMPrice = parseFloat(document.getElementById("RAMPrice").value.substring(1).replace(/[^0-9\.]/g, ''));
+        var SoundcardPrice = parseFloat(document.getElementById("SoundcardPrice").value.substring(1).replace(/[^0-9\.]/g, ''));
+
+
+
+        var total_temp = CPUPrice + DisplayPrice + FanPrice + GPUPrice + HardDrivePrice + MotherboardPrice + OSPrice + RAMPrice + SoundcardPrice;
+        var total = total_temp.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+        document.getElementById("TotalPrice").value = total;
+
+    }
+</script>

@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Documentation</title>
+    <link rel="stylesheet" href="stylesheetdoc.css" />
+
+</head>
+
+<body>
+    <header>
+        <img src="../../../wwwroot/images/logo.svg" class="logo" alt="logo" />
+        <a class="maintitle" href="https://tma3anew.azurewebsites.net/">Assignment 2</a>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="https://tma3anew.azurewebsites.net/">Home</a></li>
+                <li><a href="https://tma3anew.azurewebsites.net/part1/part1">Part 1</a></li>
+                <li><a href="https://tma3anew.azurewebsites.net/part2/part2">Part 2</a></li>
+                <li><a href="https://tma3anew.azurewebsites.net/part3/part3">Part 3</a></li>
+                <li><a href="https://tma3anew.azurewebsites.net/part4/part4">Part 4</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br />
+    <br />
+    <br />
+    <h1 id="LTT1" class="part_2_title">Documentation</h1>
+    <hr id="LTT2" />
+    <br />
+    <br />
+    <div class="tabContainerDOC">
+        <div class="buttonContainerDOC">
+            <div class="learnButtonDOC">
+                <button class="btnUnitCourses" id=l1 onclick="showPanel1(0,'#2b2d33')">Instructions</button>
+                <button class="btnUnitCourses" id=l2 onclick="showPanel1(1,'#2b2d33')">Part 1</button>
+                <button class="btnUnitCourses" id=l3 onclick="showPanel1(2,'#2b2d33')">Part 2</button>
+                <button class="btnUnitCourses" id=l4 onclick="showPanel1(3,'#2b2d33')">Part 3</button>
+                <button class="btnUnitCourses" id=l5 onclick="showPanel1(4,'#2b2d33')">Part 4</button>
+                <button class="btnUnitCourses" id=l6 onclick="showPanel1(5,'#2b2d33')">References</button>
+            </div>
+        </div>
+        <div class="learnPanelDOC">
+            <!-- USER GUIDE STARTING POINT-->
+            <h3 class="h3">User Guide: Running Instructions</h3>
+            <div id="yellow_line" class="bottom_border"></div>
+            <br \>
+            <p class="p" style="font-weight: bold;">
+                The assignment has been uploaded to a personal web server. Just
+                click the link and everything
+                should work as expected:
+            </p>
+            <br \>
+            <a class="btnx" target="_blank" href="https://tma3anew.azurewebsites.net/">
+                https://tma3anew.azurewebsites.net/
+            </a>
+            <br \>
+            <br \>
+            <p class="p">
+                I highly recommend using the link I have provided to test my application, but I have provided
+                detailed steps on how to run it on your personal computer:
+            </p>
+            <br \>
+            <p class="p"><strong>Step 1:</strong> To view the documentation, open the TMA3A.htm file as shown in the directory below</p>
+            <br \>
+            <img src="./pictures/userguide/Picture1.png" style="width:30%" alt="picture" />
+            <br \>
+
+            <p class="p"><strong>Step 2:</strong> To run the application, launch the .sln file and build the project. Or go to the link provided above.</p>
+            <p class="p">The website should work now.</p>
+            <br \>
+            <h3 class="btn4 disabled">Main Page</h3>
+            <br \>
+            <p class="p" style="font-weight: bold;">
+                Link to Main page:
+                <a class="btnx" target="_blank" href="https://tma3anew.azurewebsites.net/">
+                    https://tma3anew.azurewebsites.net/
+                </a>
+            </p>
+            <br \>
+            <p class="p">Includes a navigation bar to navigate to different parts of the assignment.</p>
+            <br \>
+            <p class="p">Also consists of general information about the student such as:</p>
+            <ul class="p" style="margin-left:5%">
+                <li>course number and name</li>
+                <li>assignment number</li>
+                <li>name and student ID number</li>
+                <li>start date of the assignment</li>
+                <li>end date of the assignment</li>
+                <li>estimated hours spent on the assignment</li>
+            </ul> <br \>
+            <p class="p">A clean, simplistic, and professional design was chosen for this assignment. This minimalist design is easy on the eyes. As required, the application is attractive, useful, and user-friendly. The same external stylesheet is used to ensure a consistent look across all web pages this application. A footer is also included.</p>
+            <div id="yellow_line" class="bottom_border"></div>
+            <br \>
+            <br \>
+            <!-- USER GUIDE ENDING POINT-->
+        </div>
+        <div class="learnPanelDOC">
+            <!-- PART 1 DOCUMENTATION STARTING POINT-->
+            <h3 class="h3">Part 1</h3>
+            <div class="bottom_border"></div>
+            <br \>
+            <p class="p" style="font-weight: bold; margin-left: 25%;">
+                Link to Part 1: <a class="btnx" target="_blank"
+   href="https://tma3anew.azurewebsites.net/part1/part1">https://tma3anew.azurewebsites.net/part1/part1</a>
+                <br \>
+            </p>
+            <br \>
+            <br \>
+            <h3 class="btn4 disabled">Description of the task and requirements:</h3>
+            <br \>
+            <p class="p">
+                For this part of the assignment, the task was to build a web application with ASP.NET in C# for users.
+            </p>
+            <br \>
+            <p class="p">The requirements were quite specific for this task:</p>
+            <ul class="p" style="margin-left:5%">
+                <li>The application has a clean and easy-to-use interface.</li>
+                <li>The app uses a persistent cookie to track the number of times the user has visited the page. </li>
+                <li>The application displays the time zone of the user</li>
+                <li>The application displays the IP address of the user.</li>
+            </ul>
+            <br \>
+            <br \>
+            <h3 class="btn4 disabled">Documentation of Implementation:</h3>
+            <br \>
+            <p class="p">
+                All the requirements mentioned above were met successfully, as demonstrated below:
+            </p>
+            <br \>
+            <img src="./pictures/part1/Picture1.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <br \>
+            <h3 class="btn4 disabled">Analysis and Design of the Web Application:</h3>
+            <br \>
+            <p class="p">
+                This part was fairly straight-forward. The IP address and time zone were implemented as shown below:
+            </p>
+            <br \>
+            <img src="./pictures/part1/Picture2.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <p class="p">The persistent cookie user-tracker was implemented as shown below:.</p>
+            <br \>
+            <img src="./pictures/part1/Picture2.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <br \>
+            <p class="p">
+                As documented above, all the requirements were successfully met for this part.
+            </p>
+            <br \>
+            <div id="yellow_line" class="bottom_border"></div>
+            <br \>
+            <br \>
+            <!-- PART 1 DOCUMENTATION ENDING POINT-->
+        </div>
+        <div class="learnPanelDOC">
+            <!-- PART 2 DOCUMENTATION STARTING POINT-->
+            <h3 class="h3">Part 2</h3>
+            <div class="bottom_border"></div>
+            <br \>
+            <p class="p" style="font-weight: bold; margin-left: 25%;">
+                Link to Part 2: <a class="btnx" target="_blank"
+   href="https://tma3anew.azurewebsites.net/part2/part2">https://tma3anew.azurewebsites.net/part2/part2</a>
+                <br \>
+            </p>
+            <br \>
+            <br \>
+            <h3 class="btn4 disabled">Description of the task and requirements:</h3>
+            <br \>
+            <p class="p">
+                For this part of the assignment, the task was to build a slideshow using ASP.NET in C#.
+            </p>
+            <br \>
+            <p class="p">The requirements were quite specific for this task:</p>
+            <ul class="p" style="margin-left:5%">
+                <li>Information about the pictures (caption and URL) must be stored in a text file or a server.</li>
+                <li>A caption was required for each image.</li>
+                <li>A start/stop button was required</li>
+                <li>A control to toggle the show between random and sequential order was required.</li>
+                <li>Buttons to change the order of the show when sequential mode is selected were needed</li>
+                <li>At least 20 different pictures were required</li>
+            </ul>
+            <br \>
+            <br \>
+            <h3 class="btn4 disabled">Documentation of Implementation:</h3>
+            <br \>
+            <p class="p">
+                All of the requirements were successfully implemented for this part. We see this when the web page is launched. We have a toggle to start/stop the show and a drop-down box for transitions. When the show is started, captions appear. We are currently in sequential mode.
+            </p>
+            <br \>
+            <img src="./pictures/part2/Picture1.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <br \>
+            <p class="p">
+                When the toggle is pressed, the show is switched to random mode and the forward and backward button disappears.
+            </p>
+            <br \>
+            <img src="./pictures/part2/Picture2.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+
+            <h3 class="btn4 disabled">Analysis and Design of the Web Application:</h3>
+            <br \>
+            <p class="p">
+                Below, this is how our image data is stored in a JSON array. There are 20 different pictures with different captions. The file is called images.json and it’s located in the following directory: <strong>TMA3A/TMA3A/Pages/part2/images.json</strong>
+            </p>
+            <br \>
+            <img src="./pictures/part2/Picture3.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <br \>
+            <p class="p">
+                This is how the JSON file is extracted on the server-side:
+            </p>
+            <br \>
+
+            <img src="./pictures/part2/Picture4.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <br \>
+            <p class="p">As documented above, all the requirements were successfully met for this part.</p>
+            <br \>
+            <br \>
+            <div id="yellow_line" class="bottom_border"></div>
+            <br \>
+            <br \>
+            <!-- PART 2 DOCUMENTATION ENDING POINT-->
+        </div>
+        <div class="learnPanelDOC">
+            <!-- PART 3 DOCUMENTATION STARTING POINT-->
+            <h3 class="h3">Part 3</h3>
+            <div class="bottom_border"></div>
+            <br \>
+            <p class="p" style="font-weight: bold; margin-left: 25%;">
+                Link to Part 3: <a class="btnx" target="_blank"
+   href="https://tma3anew.azurewebsites.net/part3/part3">https://tma3anew.azurewebsites.net/part3/part3</a>
+                <br \>
+            </p>
+            <br \>
+            <br \>
+            <h3 class="btn4 disabled">Description of the task and requirements:</h3>
+            <br \>
+            <p class="p">
+                In this part of the assignment, the main objective was to develop an online computer webstore using ASP.NET in C# in which customers can select a computer from a list and customize it by replacing some components in its standard configuration. Customers can then place an order with the online store. This is what is stated in the assignment description.
+            </p>
+            <br \>
+            <p class="p">The requirements were quite specific for this task:</p>
+            <ul class="p" style="margin-left:5%">
+                <li>The application running in a web browser should be like a real online store.</li>
+                <li>The application has a clean and easy-to-use interface, with menus and navigation buttons</li>
+                <li>It has a name and logo shown across all the pages</li>
+                <li>It begins with a welcome message to greet customers</li>
+                <li>It has other pages such as policies, a feedback form, etc</li>
+                <li>There should be at least 5 components available</li>
+                <li>A customer can select a computer with default configuration and customize it.</li>
+                <li>Whenever a change has been made by the customer, the price total updates dynamically </li>
+                <li>After the customer has hit the Buy button, a summary is displayed.</li>
+                <li>All links, menus, and buttons within the online store should be active. .</li>
+            </ul>
+            <br \>
+            <br \>
+            <h3 class="btn4 disabled">Analysis and Design of the Web Application:</h3>
+            <br \>
+            <p class="p">
+                As asked in the assignment description, I visited some online stores such as Bestbuy.ca and Apple.ca and analysed their designs/functionality. Here’s what I found:
+            </p>
+            <ul class="p" style="margin-left:5%">
+                <li>At the very top, all these websites had a menu bar with navigation links to the main pages of the website.</li>
+                <li>The navbar included a button to manage your account and a button to check your cart on the far right, and a search bar in the center</li>
+                <li>Some websites had a welcome message, a slideshow with their latest products, along with some nice graphics</li>
+                <li>When we go onto their catalog, we observe a picture of the product displayed along with the price, and a button to add the item to the cart.</li>
+                <li>On some websites, there was an additional button to view details of the product before adding it to cart.</li>
+                <li>When items are added to cart, we observe that following: a picture of the product, the option to remove the item, its quantity, and its price.</li>
+                <li>At the very bottom we observe the grand total</li>
+                <li>When the buy button is clicked, we see a summary of our items and some input boxes to enter in our personal information.</li>
+                <li>Once an order is submitted, a confirmation email is recieved</li>
+                <li>Some websites had a feedback form</li>
+
+            </ul>
+            <br \>
+            <p class="p">These websites were carefully studied and analyzed to create my web application. I created rough storyboards of the web app’s functionality and implemented it using Agile methodology and daily sprints. Pretty much all of the observations listed above are implemented into my website. Below I will provide you with my rough storyboards I made before I started coding the web app and the final results as well! </p>
+
+            <br \>
+            <h3 class="btn4 disabled">Documentation of Implementation: Storyboard and Final Product:</h3>
+            <br \>
+            <p class="p">This is the home page of the website:</p>
+            <img src="./pictures/part3/Picture1.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <p class="p" style="text-align: center; "> <strong>part3.cshtml</strong></p>
+            <br \>
+            <img src="./pictures/part3/Picture2.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <p class="p">
+                When the user clicks “Store” in the navbar, or the “click here to view our catalog” message, we get to this page:
+            </p>
+            <br \>
+            <img src="./pictures/part3/Picture3.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <p class="p" style="text-align: center; "> <strong>Store.cshtml</strong></p>
+            <br \>
+            <img src="./pictures/part3/Picture4.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <p class="p">
+                If the user wants to shop for a component [such as a RAM or Motherboard], the following page listing all the products is displayed below. From here, the user can directly add the product to cart. <strong>I would like to make it clear that the contents of this page are NOT hard-coded. I made JSON files for the components that are parsed and processed on the server-side and displayed to the user.</strong> It’s the same Razor Page that changes based on the query URL.
+            </p>
+            <br \>
+            <img src="./pictures/part3/Picture5.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <p class="p" style="text-align: center; "> <strong>ComponentList.cshtml</strong></p>
+            <br \>
+            <img src="./pictures/part3/Picture6.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <p class="p">
+                If the user wants to shop for a Pre-built/customizable PC, the following page listing all the products is displayed below. From here, the user can view details of the PC that they selected.
+            </p>
+            <br \>
+            <img src="./pictures/part3/Picture7.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <p class="p" style="text-align: center; "> <strong>ComputerList.cshtml</strong></p>
+            <br \>
+            <img src="./pictures/part3/Picture8.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <p class="p">
+                When the user clicks “View Details”, they are presented with the following page. The computer is customizable and the price updates dynamically in real time. <strong>I would like to make it clear that the contents of this page are NOT hard-coded. I made JSON files for the components that are parsed and processed on the server-side and displayed to the user. </strong> All the options that the user sees from the dropdown boxes are generated from the JSON files.
+            </p>
+            <br \>
+            <img src="./pictures/part3/Picture9.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <p class="p" style="text-align: center; "> <strong>ComputerDetails.cshtml</strong></p>
+            <br \>
+            <img src="./pictures/part3/Picture10.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <p class="p">
+                When the user is done shopping, they can view their cart. The user can remove items if they change their mind. The price is displayed next to the item and the grand total is displayed at the very bottom of the webpage. Items in the cart are managed using Http Sessions
+            </p>
+            <br \>
+            <img src="./pictures/part3/Picture11.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <p class="p" style="text-align: center; "> <strong>Cart.cshtml</strong></p>
+            <br \>
+            <img src="./pictures/part3/Picture12.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <p class="p">
+                When the user clicks Proceed to Checkout, a summary of their order is displayed along with the total price. The user is asked to enter in their personal details in order to successfully place the order.
+            </p>
+            <br \>
+            <img src="./pictures/part3/Picture13.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <p class="p" style="text-align: center; "> <strong>Checkout.cshtml</strong></p>
+            <br \>
+            <img src="./pictures/part3/Picture14.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <p class="p">
+                I went the extra mile to send a summary of the order to the user’s email once they place the order. This feature is obviously not complete, but the backend is implemented. I haven’t formatted the contents of the email, but you can see that a summary of all the items in the cart along with the price and image is emailed to the user. I look forward to implementing the front-end of this feature in the near future.
+            </p>
+            <br \>
+            <img src="./pictures/part3/Picture15.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+
+            <p class="p">
+                This is the basic functionality of the web app. Other than this, there are some extra pages on the website for a more professional look which provide some extra information to the customers. For example, I have a page about Delivery information:
+            </p>
+            <br \>
+            <img src="./pictures/part3/Picture16.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <p class="p" style="text-align: center; "> <strong>Delivery.cshtml</strong></p>
+            <br \>
+            <img src="./pictures/part3/Picture17.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <p class="p">
+                A page that provides the user information about the company’s policies:
+            </p>
+            <br \>
+            <img src="./pictures/part3/Picture18.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <p class="p" style="text-align: center; "> <strong>Policies.cshtml</strong></p>
+            <br \>
+            <img src="./pictures/part3/Picture19.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <p class="p">
+                If the customer wants to send feedback or a request about defects in the product, I have provided the user with a Contact Us form that sends emails instantly to the company’s email address.
+            </p>
+            <br \>
+            <img src="./pictures/part3/Picture20.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <p class="p" style="text-align: center; "> <strong>ContactUs.cshtml</strong></p>
+            <br \>
+            <img src="./pictures/part3/Picture21.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <img src="./pictures/part3/Picture22.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <br \>
+            <p class="p">As demonstrated above, all of the requirements were successfully implemented for this part, and a few extra features were implemented as well.</p>
+            <br \>
+            <p class="p">I personally feel that everything was implemented properly, and all functions work as expected for this part of the assignment. The application follows a minimalist design so it looks good and is easy to use. The whole web application is deployed on a live web server, and accessible for you to evaluate. Once again, unfortunately, I also had to purchase access to Azure’s services because my free credits expired. I’ve thoroughly tested this application, so PLEASE contact me if you have any issues with anything!</p>
+            <br \>
+            <br \>
+            <div id="yellow_line" class="bottom_border"></div>
+            <br \>
+            <br \>
+            <!-- PART 3 DOCUMENTATION ENDING POINT-->
+        </div>
+
+
+        <div class="learnPanelDOC">
+            <!-- PART 4 DOCUMENTATION STARTING POINT-->
+            <h3 class="h3">Part 3</h3>
+            <div class="bottom_border"></div>
+            <br \>
+            <p class="p" style="font-weight: bold; margin-left: 25%;">
+                Link to Part 4: <a class="btnx" target="_blank"
+                                   href="https://tma3anew.azurewebsites.net/part4/part4">https://tma3anew.azurewebsites.net/part4/part4</a>
+                <br \>
+            </p>
+            <br \>
+            <br \>
+            <h3 class="btn4 disabled">Description of the task and requirements:</h3>
+            <br \>
+            <p class="p">In this part of the assignment, the main objective was to continue developing the online computer webstore from part three with added features. </p>
+            <p class="p">The requirements were quite specific for this task:</p>
+            <ul class="p" style="margin-left:5%">
+                <li>Implementing a customer management module which allows users to register, login, and recover their password.</li>
+                <li>Implementing an order management module which will allow registered customers to save and manage their orders to manage their orders</li>
+                <li>Designing and implementing a back-end database to support your online computer store that stores all the details of the computers and components, manages customers, and manages orders.</li>
+            </ul>
+            <br \>
+            <br \>
+            <h3 class="btn4 disabled">Analysis and Design of the Web Application:</h3>
+            <br \>
+            <p class="p">
+                Here is the backend database that I created for my store.
+            </p>
+            <br \>
+            <img src="./pictures/part4/Picture1.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <br \>
+            <p class="p">
+                The SQL server scripts for generating this database can be found in the following directory:
+            </p>
+            <p class="p">
+                <strong>/TMA3A/TMA3A/Pages/Part4/db_files/SQL_server_scripts.sql</strong>
+            </p>
+            <br \>
+            <h3 class="btn4 disabled">Documentation of Implementation:</h3>
+            <br \>
+            <p class="p">On the top right of the nav-bar in part 4, you will see a button for users to access their accounts:</p>
+            <br \>
+            <img src="./pictures/part4/Picture2.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <br \>
+            <p class="p">When the user clicks it, they sent to a page where they can log in, register, or recover their password:</p>
+            <br \>
+            <img src="./pictures/part4/Picture3.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <br \>
+            <p class="p">Once a user logs in with valid credentials, they are presented with the following page and they stay logged in until the log-out button is pressed. Even if you browse the website and get back to the user section, it will show this page. When the logout button is pressed, the user is sent back to the login page.</p>
+            <br \>
+            <img src="./pictures/part4/Picture4.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <br \>
+            <p class="p">If a user wants to register, they can do it from the following page. The application checks to make sure that an account with that username doesn’t already exist and displays an error as shown below. Once registered, the user can log back in.</p>
+            <br \>
+            <img src="./pictures/part4/Picture5.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <br \>
+            <p class="p">A user can also recover their password from the following page. The website makes sure that the email that the user entered is present in the database. If not, it’ll give an error.</p>
+            <br \>
+            <img src="./pictures/part4/Picture6.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <br \>
+
+            <p class="p">Once a user enters in a valid email, the password is sent to their email as shown below:</p>
+            <br \>
+            <img src="./pictures/part4/Picture7.png" style="width:50%" class="picturesDOC" alt="picture" />
+            <br \>
+            <br \>
+            <p class="p">I was unable to complete Parts 2 and 3 due to personal health issues and time constraints.</p>
+            <p class="p">
+                <strong>I would like to make it clear that the contents/details of the computers and components were NOT hard-coded in the first place. I originally JSON files for the components that are parsed and processed on the server-side and displayed to the user.</strong>
+            </p>
+            <br \>
+            <br \>
+            <div id="yellow_line" class="bottom_border"></div>
+            <br \>
+            <br \>
+
+            <!-- PART 4 DOCUMENTATION ENDING POINT-->
+        </div>
+        <div class="learnPanelDOC">
+            <!-- REFERENCES STARTING POINT-->
+            <h3 class="h3">References</h3>
+            <div class="bottom_border"></div>
+            <br \>
+            <h3 class="h3">General</h3>
+            <ul class="p">
+                <li style="list-style-type: none;">
+                    <ul>
+                        <li>
+                            <a href="https://stackoverflow.com/questions/10745542/object-to-string-array">https://stackoverflow.com/questions/10745542/object-to-string-array</a>
+                        </li>
+                        <li>
+                            <a href="https://www.whitehatsec.com/glossary/content/persistent-session-cookie">https://www.whitehatsec.com/glossary/content/persistent-session-cookie</a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/questions/50281937/how-to-redirect-on-asp-net-core-razor-pages">https://stackoverflow.com/questions/50281937/how-to-redirect-on-asp-net-core-razor-pages</a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/questions/46772632/how-pass-objects-from-one-page-to-another-on-asp-net-core-with-razor-pages">https://stackoverflow.com/questions/46772632/how-pass-objects-from-one-page-to-another-on-asp-net-core-with-razor-pages</a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/questions/63452889/redirect-from-razor-page-with-data">https://stackoverflow.com/questions/63452889/redirect-from-razor-page-with-data</a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/questions/24233104/extract-data-from-json-string">https://stackoverflow.com/questions/24233104/extract-data-from-json-string</a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/questions/40136794/mvc-net-core-razor-submit-value-from-select-box-to-db">https://stackoverflow.com/questions/40136794/mvc-net-core-razor-submit-value-from-select-box-to-db</a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/questions/6159103/how-can-i-get-all-element-values-from-request-form-without-specifying-exactly-wh">https://stackoverflow.com/questions/6159103/how-can-i-get-all-element-values-from-request-form-without-specifying-exactly-wh</a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/questions/27422114/populate-dropdown-using-array">https://stackoverflow.com/questions/27422114/populate-dropdown-using-array</a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=FfaqZWEBXzg">https://www.youtube.com/watch?v=FfaqZWEBXzg</a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/questions/23781034/razor-mvc-populating-javascript-array-with-model-array">https://stackoverflow.com/questions/23781034/razor-mvc-populating-javascript-array-with-model-array</a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/questions/38047053/how-to-add-link-parameter-to-asp-tag-helpers-in-asp-net-core-mvc">https://stackoverflow.com/questions/38047053/how-to-add-link-parameter-to-asp-tag-helpers-in-asp-net-core-mvc</a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/questions/43228434/c-sharp-the-name-does-not-exist-in-the-current-context">https://stackoverflow.com/questions/43228434/c-sharp-the-name-does-not-exist-in-the-current-context</a>
+                        </li>
+                        <li>
+                            <a href="https://www.delftstack.com/howto/csharp/csharp-remove-first-character-from-string">https://www.delftstack.com/howto/csharp/csharp-remove-first-character-from-string</a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/questions/46921275/access-session-variable-in-razor-view-net-core-2">https://stackoverflow.com/questions/46921275/access-session-variable-in-razor-view-net-core-2</a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/questions/1825568/append-a-lists-contents-to-another-list-c-sharp">https://stackoverflow.com/questions/1825568/append-a-lists-contents-to-another-list-c-sharp</a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/questions/5917831/border-around-legend-in-form-does-not-show">https://stackoverflow.com/questions/5917831/border-around-legend-in-form-does-not-show</a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/questions/42413681/fieldsets-top-border-not-showing-up">https://stackoverflow.com/questions/42413681/fieldsets-top-border-not-showing-up</a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/questions/13426875/text-border-using-css-border-around-text">https://stackoverflow.com/questions/13426875/text-border-using-css-border-around-text</a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link ">https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link </a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/questions/52087988/asp-net-razor-pages-submit-button-does-nothing">https://stackoverflow.com/questions/52087988/asp-net-razor-pages-submit-button-does-nothing</a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/questions/36126731/how-to-send-mail-gmail-via-smtp ">https://stackoverflow.com/questions/36126731/how-to-send-mail-gmail-via-smtp </a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/questions/32260/sending-email-in-net-through-gmail?rq=1">https://stackoverflow.com/questions/32260/sending-email-in-net-through-gmail?rq=1</a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/questions/43299193/how-to-add-white-space-in-asp-net-mvc-view/43299230">https://stackoverflow.com/questions/43299193/how-to-add-white-space-in-asp-net-mvc-view/43299230</a>
+                        </li>
+
+                    </ul>
+                </li>
+            </ul>
+            <br \>
+            <br \>
+            <h3 class="h3">Logo/Icons/Pictures</h3>
+            <ul class="p">
+                <li>
+                    <a href="https://www.graphicsprings.com/">https://www.graphicsprings.com/</a>
+                </li>
+                <li>
+                    <a href="https://www.pinclipart.com/pindetail/ihowwJx_modern-web-design-computer-monitor-clipart/">https://www.pinclipart.com/pindetail/ihowwJx_modern-web-design-computer-monitor-clipart/</a>
+                </li>
+                <li>
+                    <a href="https://www.pinclipart.com/pindetail/ibTJmio_fast-clipart-van-transport-delivery-van-clip-art/">https://www.pinclipart.com/pindetail/ibTJmio_fast-clipart-van-transport-delivery-van-clip-art/</a>
+                </li>
+                <li>
+                    <a href="https://www.vectorstock.com/royalty-free-vector/laptop-icon-outline-device-vector-10736027/">https://www.vectorstock.com/royalty-free-vector/laptop-icon-outline-device-vector-10736027/</a>
+                </li>
+                <li>
+                    <a href="https://www.vectorstock.com/royalty-free-vector/laptop-icon-outline-device-vector-1073602/">https://www.vecteezy.com/vector-art/4262773-online-shop-icon-set-vector-for-web-presentation-logo-icon-symbol-button/</a>
+                </li>
+                <li>
+                    <a href="https://www.pinclipart.com/pindetail/bhwTwi_reset-icons-return-icon-png-clipart/">https://www.pinclipart.com/pindetail/bhwTwi_reset-icons-return-icon-png-clipart/</a>
+                </li>
+                <li>
+                    <a href="https://icons8.com/icon/77883/male-user/">https://icons8.com/icon/77883/male-user/</a>
+                </li>
+                <li>
+                    <a>All catalog pictures were taken from BESTBUY.</a>
+                </li>
+            </ul>
+            <br \>
+            <h3 class="h3">Phrases taken/paraphrased from the Assignment handout</h3>
+            <br \>
+            <ul class="p">
+                <li>
+                    <a href="https://scis.lms.athabascau.ca/mod/assign/view.php?id=24927">https://scis.lms.athabascau.ca/mod/assign/view.php?id=24927</a>
+                </li>
+            </ul>
+            <br \>
+            <h3 class="h3">Shipping page information text taken from </h3>
+            <br \>
+            <ul class="p">
+                <li>
+                    <a href="https://www.termsfeed.com/public/uploads/2019/04/shipping-policy-template.pdf">https://www.termsfeed.com/public/uploads/2019/04/shipping-policy-template.pdf</a>
+                </li>
+            </ul>
+            <br \>
+            <br \>
+            <h3 class="h3">Some code was reused/improved from Assignment 1 </h3>
+            <br \>
+
+
+            <!-- REFERENCES ENDING POINT-->
+        </div>
+    </div>
+    <br />
+
+
+
+    <script type="text/javascript" src="documentation.js"></script>
+    <footer>
+        <p class="p"> © 2021 Raamish Naveed</p>
+    </footer>
+</body>
+
+</html>

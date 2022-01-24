@@ -1,0 +1,58 @@
+﻿[
+  {
+    "link": "https://softwarekeep.ca/_next/image?url=https%3A%2F%2Fstatic.softwarekeep.com%2Fcatalog%2Fproduct%2Fw%2Fi%2Fwin10home64_3.png&w=750&q=75",
+    "name": "Windows 10 Home 64-bit",
+    "price": "$104.99",
+    "type": "OS"
+  },
+  {
+    "link": "https://cdn.shopify.com/s/files/1/0252/7641/6085/products/windows10S.png?v=1613472740",
+    "name": "Microsoft Windows 10 S 64-bit",
+    "price": "$378.99",
+    "type": "OS"
+  },
+  {
+    "link": "https://softwarekeep.ca/_next/image?url=https%3A%2F%2Fstatic.softwarekeep.com%2Fcatalog%2Fproduct%2Fw%2Fi%2Fwin10pro64.png&w=750&q=75",
+    "name": "Microsoft Windows 10 Pro 64-bit",
+    "price": "$179.99",
+    "type": "OS"
+  },
+  {
+    "link": "https://cdn.shopify.com/s/files/1/0252/7641/6085/products/Pro600x600.png?v=1632959688",
+    "name": "Microsoft Windows 11 Pro 64-bit",
+    "price": "$175.99",
+    "type": "OS"
+  },
+  {
+    "link": "https://cdn.shopify.com/s/files/1/0252/7641/6085/products/600x600_18_1.png?v=1633352128",
+    "name": "Microsoft Windows 11 Enterprise",
+    "price": "$535.99",
+    "type": "OS"
+  },
+  {
+    "link": "https://cdn.shopify.com/s/files/1/0252/7641/6085/products/home600x600.png?v=1632959866",
+    "name": "Windows 11 Home 64-bit",
+    "price": "$166.99",
+    "type": "OS"
+  },
+  {
+    "link": "https://softwarekeep.ca/_next/image?url=https%3A%2F%2Fstatic.softwarekeep.com%2Fcatalog%2Fproduct%2F6%2F0%2F600_x_600-windows_10_home_n.png&w=750&q=75",
+    "name": "Microsoft Windows 10 Home - N Edition",
+    "price": "$114.99",
+    "type": "OS"
+  },
+  {
+    "link": "https://softwarekeep.ca/_next/image?url=https%3A%2F%2Fstatic.softwarekeep.com%2Fcatalog%2Fproduct%2Fw%2Fi%2Fwin10home32.png&w=750&q=75",
+    "name": "Microsoft Windows 10 Home Edition 32-bit",
+    "price": "$104.99",
+    "type": "OS"
+  },
+  {
+    "link": "https://softwarekeep.ca/_next/image?url=https%3A%2F%2Fstatic.softwarekeep.com%2Fcatalog%2Fproduct%2Fw%2Fi%2Fwin10pro32_3.png&w=750&q=75",
+    "name": "Microsoft Windows 10 Pro Edition 32-bit",
+    "price": "$109.99",
+    "type": "OS"
+  }
+]
+
+  

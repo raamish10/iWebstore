@@ -1,0 +1,32 @@
+﻿@page
+@model Part1Model
+@{
+    ViewData["Title"] = "Part 1";
+}
+
+<body id="mainContent">
+    <div class="text-center">
+        <br />
+        <br />
+        <h1 class="display-4">iCookie</h1>
+        <br />
+        <br />
+        <br />
+        <p class="display-8">Your IP Address: @HttpContext.Connection.RemoteIpAddress </p>
+        <br />
+        <p class="display-8">Number of times you have visited the page: @ViewData["cookie_count"]</p>
+        <br />
+        <p class="display-8" id="time_zone"> Your time zone: [loading]</p>
+        <br />
+
+    </div>
+</body>
+<script>
+    function generateTimezone() {
+        client_zone = document.getElementById("time_zone");
+        var today = new Date();
+        client_zone.innerHTML = "Your time zone: " + today + " " + Intl.DateTimeFormat().resolvedOptions().timeZone;
+    }
+    window.addEventListener("load", generateTimezone);
+</script>
+

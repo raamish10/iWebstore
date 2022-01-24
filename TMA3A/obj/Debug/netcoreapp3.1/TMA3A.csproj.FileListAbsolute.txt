@@ -1,0 +1,277 @@
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/TMA3A.deps.json
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/TMA3A.runtimeconfig.json
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/TMA3A.runtimeconfig.dev.json
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/TMA3A.dll
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/TMA3A.pdb
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/TMA3A.Views.dll
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/TMA3A.Views.pdb
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.csproj.AssemblyReference.cache
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.GeneratedMSBuildEditorConfig.editorconfig
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.AssemblyInfoInputs.cache
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.AssemblyInfo.cs
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.csproj.CoreCompileInputs.cache
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.MvcApplicationPartsAssemblyInfo.cache
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.RazorAssemblyInfo.cache
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.RazorAssemblyInfo.cs
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/staticwebassets/TMA3A.StaticWebAssets.Manifest.cache
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.TagHelpers.input.cache
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.TagHelpers.output.cache
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.RazorCoreGenerate.cache
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/Error.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/Privacy.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Layout.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.RazorTargetAssemblyInfo.cache
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.RazorTargetAssemblyInfo.cs
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.Views.pdb
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.dll
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.pdb
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.genruntimeconfig.cache
+/Users/A/Desktop/TMA3A/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.csproj.CopyComplete
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/TMA3A.deps.json
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/TMA3A.runtimeconfig.json
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/TMA3A.runtimeconfig.dev.json
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/TMA3A.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/TMA3A.pdb
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/TMA3A.Views.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/TMA3A.Views.pdb
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.GeneratedMSBuildEditorConfig.editorconfig
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.AssemblyInfoInputs.cache
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.AssemblyInfo.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.csproj.CoreCompileInputs.cache
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.MvcApplicationPartsAssemblyInfo.cache
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.RazorAssemblyInfo.cache
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.RazorAssemblyInfo.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/staticwebassets/TMA3A.StaticWebAssets.Manifest.cache
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.TagHelpers.input.cache
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.TagHelpers.output.cache
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.RazorCoreGenerate.cache
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part1/part1.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part2/part2.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part3/part3.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/part4.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Layout.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/tma3a.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.RazorTargetAssemblyInfo.cache
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.RazorTargetAssemblyInfo.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.Views.pdb
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.csproj.CopyComplete
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.dll
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.pdb
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.genruntimeconfig.cache
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.csproj.AssemblyReference.cache
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part2/images.json
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part3/ContactUs.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part3/Delivery.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part3/Store.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part3/Cart.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part3/Policies.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part3/ComponentList.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part3/ComputerList.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part3/db_files/Motherboard.json
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part3/db_files/CPU.json
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part3/db_files/GPU.json
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part3/db_files/RAM.json
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part3/db_files/Fan.json
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part3/db_files/Display.json
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part3/db_files/OS.json
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part3/db_files/Soundcard.json
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part3/db_files/Hard_Drive.json
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part3/Checkout.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part3/db_files/Computers.json
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part3/ComputerDetails.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part3/Test.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part4/db_files/Computers.json
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part4/db_files/CPU.json
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part4/db_files/Display.json
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part4/db_files/Fan.json
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part4/db_files/GPU.json
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part4/db_files/Hard_Drive.json
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part4/db_files/Motherboard.json
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part4/db_files/OS.json
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part4/db_files/RAM.json
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part4/db_files/Soundcard.json
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/Delivery.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/Policies.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/Store.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/Cart.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/ComponentList.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/ContactUs.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/Checkout.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/ComputerDetails.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/ComputerList.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Users/A/Desktop/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/Login.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/Register.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/ForgotPassword.cshtml.g.cs
+/Users/A/Desktop/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/LoggedIn.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part2/images.json
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part3/db_files/Computers.json
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part3/db_files/CPU.json
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part3/db_files/Display.json
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part3/db_files/Fan.json
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part3/db_files/GPU.json
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part3/db_files/Hard_Drive.json
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part3/db_files/Motherboard.json
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part3/db_files/OS.json
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part3/db_files/RAM.json
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part3/db_files/Soundcard.json
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part4/db_files/Computers.json
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part4/db_files/CPU.json
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part4/db_files/Display.json
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part4/db_files/Fan.json
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part4/db_files/GPU.json
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part4/db_files/Hard_Drive.json
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part4/db_files/Motherboard.json
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part4/db_files/OS.json
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part4/db_files/RAM.json
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Pages/part4/db_files/Soundcard.json
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/TMA3A.deps.json
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/TMA3A.runtimeconfig.json
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/TMA3A.runtimeconfig.dev.json
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/TMA3A.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/TMA3A.pdb
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/TMA3A.Views.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/TMA3A.Views.pdb
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.csproj.AssemblyReference.cache
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.GeneratedMSBuildEditorConfig.editorconfig
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.AssemblyInfoInputs.cache
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.AssemblyInfo.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.csproj.CoreCompileInputs.cache
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.MvcApplicationPartsAssemblyInfo.cache
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.RazorAssemblyInfo.cache
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.RazorAssemblyInfo.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/staticwebassets/TMA3A.StaticWebAssets.Manifest.cache
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.TagHelpers.input.cache
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.TagHelpers.output.cache
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.RazorCoreGenerate.cache
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part1/part1.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part2/part2.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part3/Cart.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part3/Checkout.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part3/ComponentList.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part3/ComputerDetails.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part3/ComputerList.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part3/ContactUs.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part3/Delivery.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part3/part3.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part3/Policies.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part3/Store.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part3/Test.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/Cart.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/Checkout.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/ComponentList.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/ComputerDetails.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/ComputerList.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/ContactUs.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/Delivery.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/ForgotPassword.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/LoggedIn.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/Login.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/part4.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/Policies.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/Register.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/part4/Store.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Layout.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/tma3a.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.RazorTargetAssemblyInfo.cache
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.RazorTargetAssemblyInfo.cs
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.Views.pdb
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.csproj.CopyComplete
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.dll
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.pdb
+/Users/A/Desktop/uni/Year 4/Fall/COMP 466/Assignment 3/TMA3A/TMA3A/obj/Debug/netcoreapp3.1/TMA3A.genruntimeconfig.cache

@@ -1,0 +1,83 @@
+﻿@page
+@model TMA3A.Pages.part4.ContactUsModel
+@{
+    ViewData["Title"] = "Contact Us";
+}
+
+<div class="text-center">
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container">
+            <img src="/images/part3/icon.png" class="webstoreIcon" alt="icon" />
+            <a class="navbar-brand" asp-area="" asp-page="/part4/part4">iWebstore</a>
+            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part4/part4">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part4/Store">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part4/Delivery">Delivery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part4/ContactUs">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part4/Policies">Policies</a>
+                    </li>
+                </ul>
+            </div>
+            <a asp-page="/part4/Cart" asp-page-handler="load">
+                <img src="/images/part3/cart.jpg" class="webstoreIcon">
+            </a>
+            <a asp-page="/part4/Login" asp-page-handler="load">
+                <img src="/images/part4/user.png" style="width: 30px; height: 30px;">
+            </a>
+
+        </div>
+    </nav>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <br />
+            <br />
+            <h3 class="display-4">Contact Us</h3>
+            <br />
+            <p class="display-8">
+                Please feel free to contact us regarding any questions or concerns. We will get back to you as soon as possible.
+            </p>
+            <br />
+            <form method="post">
+                <fieldset>
+                    <legend>Feedback</legend>
+                    <div>
+                        <label for="email_subject">Subject:</label>
+                        <input type="text" name="email_subject" value="" />
+                    </div>
+                    <div>
+                        <label for="email_body">Body:</label>
+                        <textarea type="text" cols="25" rows="5" name="email_body" value=""></textarea>
+                    </div>
+                    <div>
+                        <label>&nbsp;</label>
+                        <input type="submit" value="Send Feedback" class="submit" />
+                    </div>
+                    <br />
+                </fieldset>
+            </form>
+            <br />
+            <p>@ViewData["Message"]</p>
+        </main>
+    </div>
+
+    <div class="border-top webstoreFooter">
+        <br />
+        &copy; 2021 - iWebstore. All rights reserved.
+        <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <a asp-area="" asp-page="/part4/ContactUs" class="text-muted">Contact Us</a>
+        |
+        <a asp-area="" asp-page="/part4/Delivery" class="text-muted">Delivery</a>
+        |
+        <a asp-area="" asp-page="/part4/Policies" class="text-muted">Policies</a>
+    </div>
+</div>

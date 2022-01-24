@@ -1,0 +1,59 @@
+﻿[
+  {
+    "link": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/115/11556/11556412.jpg",
+    "name": "Sound Blaster Audigy RX",
+    "price": "$81.70",
+    "type": "Soundcard"
+  },
+  {
+    "link": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/122/12289/12289284.jpg",
+    "name": "Asus Xonar AE Sound Board",
+    "price": "$93.99",
+    "type": "Soundcard"
+  },
+  {
+    "link": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/123/12313/12313418.jpg",
+    "name": "Audigy FX PCI-Express",
+    "price": "$54.70",
+    "type": "Soundcard"
+  },
+  {
+    "link": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/105/10511/10511217.jpeg",
+    "name": "Sound Blaster Audigy Sound Card",
+    "price": "$182.84",
+    "type": "Soundcard"
+  },
+  {
+    "link": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/146/14691/14691915.jpg",
+    "name": "6 Channel PCI Sound Card",
+    "price": "$34.99",
+    "type": "Soundcard"
+  },
+  {
+    "link": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/157/15798/15798878.jpeg",
+    "name": "4 Port PCI USB 2.0 Sound Card",
+    "price": "$29.99",
+    "type": "Soundcard"
+  },
+  {
+    "link": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/157/15798/15798868.jpeg",
+    "name": "4 Channel PCI Sound Card New Channel",
+    "price": "$29.99",
+    "type": "Soundcard"
+  },
+
+  {
+    "link": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/154/15452/15452015.jpg",
+    "name": "STARTECH SURROUND SOUND SYSTEM 7.1 channel",
+    "price": "$137.99",
+    "type": "Soundcard"
+  },
+  {
+    "link": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/129/12999/12999100.jpg",
+    "name": "Asus Sound Card XONAR SE 192kHz 24-bit ",
+    "price": "$60.99",
+    "type": "Soundcard"
+  }
+]
+
+  

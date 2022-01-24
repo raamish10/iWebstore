@@ -1,0 +1,75 @@
+﻿@page
+@model Part3Model
+@{
+    ViewData["Title"] = "Policies";
+}
+
+
+<div class="text-center">
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container">
+            <img src="/images/part3/icon.png" class="webstoreIcon" alt="icon" />
+            <a class="navbar-brand" asp-area="" asp-page="/part4/part4">iWebstore</a>
+            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part3/part3">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part3/Store">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part3/Delivery">Delivery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part3/ContactUs">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/part3/Policies">Policies</a>
+                    </li>
+                </ul>
+            </div>
+            <a asp-page="/part3/Cart" asp-page-handler="load">
+                <img src="/images/part3/cart.jpg" class="webstoreIcon">
+            </a>
+        </div>
+    </nav>
+    <div class="container">
+        <main role="main" class="pb-3" style="text-align: justify; text-justify: inter-word;">
+            <br />
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm mb-3">
+                <div class="container">
+                    <h3 class="display-4">Policies</h3>
+                    <img src="/images/part3/policy.png" style="width: 46.58px; height: 55px;" alt="icon">
+                </div>
+            </nav>
+            <br />
+            <h5>
+                iWebstore does not accept returns.
+            </h5>
+            <br />
+            <h6>
+                If there's a defect or a problem with your order, please fill out the feedback form with your order number in the subject line.
+            </h6>
+            <br />
+            <h6>
+                If your computer is defective, we will exchange it for free.
+            </h6>
+            <br />
+            <a class="button" asp-area="" asp-page="/part3/ContactUs">Contact Us</a>
+            <br />
+            <br />
+        </main>
+    </div>
+
+    <div class="border-top webstoreFooter">
+        <br />
+        &copy; 2021 - iWebstore. All rights reserved.
+        <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <a asp-area="" asp-page="/part3/ContactUs" class="text-muted">Contact Us</a>
+        |
+        <a asp-area="" asp-page="/part3/Delivery" class="text-muted">Delivery</a>
+        |
+        <a asp-area="" asp-page="/part3/Policies" class="text-muted">Policies</a>
+    </div>
+</div>

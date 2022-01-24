@@ -1,0 +1,59 @@
+﻿[
+  {
+    "link": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/157/15778/15778670.jpg",
+    "name": "Intel Core i9-12900K Octa-Core 3.2GHz Processor",
+    "price": "$749.99",
+    "type": "CPU"
+  },
+  {
+    "link": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/157/15778/15778672.jpg",
+    "name": "Intel Core i7-12700K Octa-Core 3.6GHz Processor",
+    "price": "$529.99",
+    "type": "CPU"
+  },
+  {
+    "link": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/157/15778/15778669.jpg",
+    "name": "Intel Core i7-12700KF Octa-Core 3.6GHz Processor",
+    "price": "$499.99",
+    "type": "CPU"
+  },
+  {
+    "link": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/157/15778/15778668.jpg",
+    "name": "Intel Core i5-12600K Octa-Core 3.7GHz Processor",
+    "price": "$369.99",
+    "type": "CPU"
+  },
+  {
+    "link": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/157/15778/15778671.jpg",
+    "name": "Intel Core i9-12900KF Octa-Core 3.2GHz Processor",
+    "price": "$719.99",
+    "type": "CPU"
+  },
+  {
+    "link": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/153/15300/15300433.jpg",
+    "name": "Intel Core i5-10400F 10th Gen 6-Core 12-Thread 2.9",
+    "price": "$219.99",
+    "type": "CPU"
+  },
+  {
+    "link": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/146/14680/14680236.jpeg",
+    "name": "Intel Core i7-10700K 10th Gen 8-Core 16-Thread 3.8 GHz",
+    "price": "$457.55",
+    "type": "CPU"
+  },
+
+  {
+    "link": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/146/14689/14689542.jpeg",
+    "name": "Intel Core i3 10100 Quad Core (4 Core) 3.6 GHz Processor - Socket",
+    "price": "$157.88",
+    "type": "CPU"
+  },
+  {
+    "link": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/133/13304/13304740.jpeg",
+    "name": "Intel Core i7-9700K Octa-core 3.60 GHz H4 LGA1151 Processor",
+    "price": "$439.99",
+    "type": "CPU"
+  }
+]
+
+  
