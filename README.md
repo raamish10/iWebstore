@@ -62,16 +62,10 @@
     <img src="https://github.com/raamish10/iWebstore/blob/main/TMA3A/Pages/Shared/documentation/pictures/image14.png" alt="loading_screen" height="300px" >
 </p>
 
-<h3>3. Acknowledgement</h3>
-<p>
-    Source code used and implement codes and/or code snippets from resources such as StackOverflow, Android Developer,
-    and Lectures/Labs' materials of course CMPUT301, University of Alberta W21, and more.<br><br> Source and citation can be found
-    <a href="https://github.com/CMPUT301W21T11/Appraisal/wiki/Code-Attribution">here</a>. 
-</p>
 
-<h3>4. License</h3>
+<h3>License</h3>
 <p>
-    Developed by Raamish N., Under <a>Creative Commons</a><br><br>
+    Developed by Raamish N, Under Creative Commons<<br><br>
     All rights reserved
 </p>
 
