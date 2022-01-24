@@ -1,4 +1,3 @@
-# iWebstore
 <h1 align="center">iWebstore</h1>
 <h3 align="center"><i>An online eCommerce computer store developed using ASP.NET Razor Pages in C#</i></h3>
 <p align="center">
