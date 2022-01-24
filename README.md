@@ -35,7 +35,7 @@
 <p align="center">
     <img src="https://github.com/raamish10/iWebstore/blob/main/TMA3A/Pages/Shared/documentation/pictures/image8.png" alt="loading_screen" height="500px" >
 </p>
-<h4>Customer Registration</h4>
+<h4>Customer Services</h4>
 <p>This web application supports customer registration, customer, authentication, and password recovery.</p>
 <p align="center">
     <img src="https://github.com/raamish10/iWebstore/blob/main/TMA3A/Pages/Shared/documentation/pictures/image9.png" alt="loading_screen" height="500px" >
