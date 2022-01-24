@@ -7,7 +7,7 @@
 <h4>Catalog</h4>
 <p>Choose a product to shop!</p>
 <p align="center">
-    <img src="https://github.com/raamish10/iWebstore/blob/main/TMA3A/Pages/Shared/documentation/pictures/image2.png" alt="loading_screen" height="400px" >
+    <img src="https://github.com/raamish10/iWebstore/blob/main/TMA3A/Pages/Shared/documentation/pictures/image2.png" alt="loading_screen" height="500px" >
 </p>
 <p>If the user wants to shop for a component [such as a RAM or Motherboard], the following page listing all the products is displayed below. From here, the user can directly add the product to cart!</p>
 <p align="center">
@@ -59,7 +59,7 @@
 </p>
 <p>A page that provides the user information about the company’s policies:</p>
 <p align="center">
-    <img src="https://github.com/raamish10/iWebstore/blob/main/TMA3A/Pages/Shared/documentation/pictures/image14.png" alt="loading_screen" height="400px" >
+    <img src="https://github.com/raamish10/iWebstore/blob/main/TMA3A/Pages/Shared/documentation/pictures/image14.png" alt="loading_screen" height="300px" >
 </p>
 
 <h3>3. Acknowledgement</h3>
